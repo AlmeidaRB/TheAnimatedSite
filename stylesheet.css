@@ -47,28 +47,11 @@ h3 {
 hr {
     border: 1px solid #B7AFA3;
 }
+
 /***HEADER***/
 header {
   text-align:center;
   margin: 20px 20px 10px 20px;
-}
-
-/***PIC SWIP LIST***/
-.sliders: {
-  margin: auto;
-  padding: auto;
-  background-color: green;
-  overflow: auto;
-}
-.sliders ul {
-  list-style-type: none;
-  margin: auto;
-  padding: auto;
-  margin-bottom: 20px;
-}
-.sliders li {
-  display: inline-block;
-  text-align: center;
 }
 
 /***FADE EFFECT***/
@@ -101,6 +84,24 @@ header {
 
 .mybackground span:hover {
   opacity: 1;
+}
+
+/***PIC SWIPE LIST***/
+.sliders: {
+  margin: auto;
+  padding: auto;
+  background-color: green;
+  overflow: auto;
+}
+.sliders ul {
+  list-style-type: none;
+  margin: auto;
+  padding: auto;
+  margin-bottom: 20px;
+}
+.sliders li {
+  display: inline-block;
+  text-align: center;
 }
 
 
