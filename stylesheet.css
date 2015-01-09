@@ -1,0 +1,110 @@
+/***MAIN***/
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+body {
+  height: 100%;
+  background: white;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  }
+
+img {
+  border-width: 1px;
+  border-color: black;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  margin: 10px;
+  }
+
+h2 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  margin: 10px;
+  }
+
+hr {
+    border: 1px solid lightgray;
+}
+/***HEADER***/
+header {
+  text-align:center;
+  margin: 60px 30px 30px 30px;
+}
+
+/***PIC SWIP LIST***/
+.sliders: {
+  margin: auto;
+  padding: auto;
+  background-color: green;
+  overflow: auto;
+}
+.sliders ul {
+  list-style-type: none;
+  margin: auto;
+  padding: auto;
+  margin-bottom: 50px;
+}
+.sliders li {
+  display: inline-block;
+  text-align: center;
+}
+
+/***PIC SWIPE EFFECT***/
+
+.swipe {
+  overflow: auto;
+}
+.swipe ul {
+  background-color: black;
+}
+.swipe li{
+  float: left;
+  position:relative;
+  display:inline-block;
+  height:300px;
+  min-width:10px;
+  width: 50px;
+  overflow:hidden;
+  padding: 20px;
+  background-color: red;
+  -moz-transition: all .8s ease;
+  -webkit-transition: a .8s ease;
+  transition: all .8s ease;
+}
+.swipe li:hover,
+.swipe li:active { width:300px; }
+#one { background: #FFC143; }
+#two{ background: #D100A7; }
+#three{ background: #A6D785; }
+#four{ background: #f88379; }
+#five{ background: #5F9EA0; width: 300px;
+}
+/***FOOTER***/
+.footer {
+  display: block;
+  clear: both;
+  text-align: center;
+  padding: 25px;
+  margin: 10px;
+  font-size: 25px;
+}
+.footer ul {
+  display: margin: auto;
+  padding: auto;
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer li {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
