@@ -64,7 +64,17 @@ h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   margin: 10px;
+}
+.flip {
+  display: inline-block;
+}
+.flip:hover {
+  transform: rotate(180deg);
+}
+.rotate:hover h2 {
+  transform: scale(2);
   }
+
 h3 {
   text-align: center;
   font-size: 25px;
